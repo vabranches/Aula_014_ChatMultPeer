@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43F9983B1E452E2B002AB4FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F9983A1E452E2B002AB4FD /* AppDelegate.swift */; };
+		43F9983D1E452E2B002AB4FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F9983C1E452E2B002AB4FD /* ViewController.swift */; };
+		43F998401E452E2B002AB4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F9983E1E452E2B002AB4FD /* Main.storyboard */; };
+		43F998431E452E2B002AB4FD /* Aula_014_ChatMultPeer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43F998411E452E2B002AB4FD /* Aula_014_ChatMultPeer.xcdatamodeld */; };
+		43F998451E452E2B002AB4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F998441E452E2B002AB4FD /* Assets.xcassets */; };
+		43F998481E452E2B002AB4FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F998461E452E2B002AB4FD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43F998371E452E2B002AB4FD /* Aula_014_ChatMultPeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aula_014_ChatMultPeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F9983A1E452E2B002AB4FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43F9983C1E452E2B002AB4FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43F9983F1E452E2B002AB4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43F998421E452E2B002AB4FD /* Aula_014_ChatMultPeer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aula_014_ChatMultPeer.xcdatamodel; sourceTree = "<group>"; };
+		43F998441E452E2B002AB4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43F998471E452E2B002AB4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43F998491E452E2B002AB4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F998341E452E2B002AB4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F9982E1E452E2B002AB4FD = {
+			isa = PBXGroup;
+			children = (
+				43F998391E452E2B002AB4FD /* Aula_014_ChatMultPeer */,
+				43F998381E452E2B002AB4FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43F998381E452E2B002AB4FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F998371E452E2B002AB4FD /* Aula_014_ChatMultPeer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F998391E452E2B002AB4FD /* Aula_014_ChatMultPeer */ = {
+			isa = PBXGroup;
+			children = (
+				43F9983A1E452E2B002AB4FD /* AppDelegate.swift */,
+				43F9983C1E452E2B002AB4FD /* ViewController.swift */,
+				43F9983E1E452E2B002AB4FD /* Main.storyboard */,
+				43F998441E452E2B002AB4FD /* Assets.xcassets */,
+				43F998461E452E2B002AB4FD /* LaunchScreen.storyboard */,
+				43F998491E452E2B002AB4FD /* Info.plist */,
+				43F998411E452E2B002AB4FD /* Aula_014_ChatMultPeer.xcdatamodeld */,
+			);
+			path = Aula_014_ChatMultPeer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F998361E452E2B002AB4FD /* Aula_014_ChatMultPeer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F9984C1E452E2B002AB4FD /* Build configuration list for PBXNativeTarget "Aula_014_ChatMultPeer" */;
+			buildPhases = (
+				43F998331E452E2B002AB4FD /* Sources */,
+				43F998341E452E2B002AB4FD /* Frameworks */,
+				43F998351E452E2B002AB4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aula_014_ChatMultPeer;
+			productName = Aula_014_ChatMultPeer;
+			productReference = 43F998371E452E2B002AB4FD /* Aula_014_ChatMultPeer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F9982F1E452E2B002AB4FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Swift;
+				TargetAttributes = {
+					43F998361E452E2B002AB4FD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 43F998321E452E2B002AB4FD /* Build configuration list for PBXProject "Aula_014_ChatMultPeer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43F9982E1E452E2B002AB4FD;
+			productRefGroup = 43F998381E452E2B002AB4FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F998361E452E2B002AB4FD /* Aula_014_ChatMultPeer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43F998351E452E2B002AB4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F998481E452E2B002AB4FD /* LaunchScreen.storyboard in Resources */,
+				43F998451E452E2B002AB4FD /* Assets.xcassets in Resources */,
+				43F998401E452E2B002AB4FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F998331E452E2B002AB4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F998431E452E2B002AB4FD /* Aula_014_ChatMultPeer.xcdatamodeld in Sources */,
+				43F9983D1E452E2B002AB4FD /* ViewController.swift in Sources */,
+				43F9983B1E452E2B002AB4FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43F9983E1E452E2B002AB4FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F9983F1E452E2B002AB4FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43F998461E452E2B002AB4FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F998471E452E2B002AB4FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43F9984A1E452E2B002AB4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43F9984B1E452E2B002AB4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43F9984D1E452E2B002AB4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aula_014_ChatMultPeer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.quaddro.com.Aula-014-ChatMultPeer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		43F9984E1E452E2B002AB4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aula_014_ChatMultPeer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.quaddro.com.Aula-014-ChatMultPeer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F998321E452E2B002AB4FD /* Build configuration list for PBXProject "Aula_014_ChatMultPeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F9984A1E452E2B002AB4FD /* Debug */,
+				43F9984B1E452E2B002AB4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F9984C1E452E2B002AB4FD /* Build configuration list for PBXNativeTarget "Aula_014_ChatMultPeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F9984D1E452E2B002AB4FD /* Debug */,
+				43F9984E1E452E2B002AB4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43F998411E452E2B002AB4FD /* Aula_014_ChatMultPeer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43F998421E452E2B002AB4FD /* Aula_014_ChatMultPeer.xcdatamodel */,
+			);
+			currentVersion = 43F998421E452E2B002AB4FD /* Aula_014_ChatMultPeer.xcdatamodel */;
+			path = Aula_014_ChatMultPeer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43F9982F1E452E2B002AB4FD /* Project object */;
+}
